@@ -1,0 +1,15 @@
+name = "muddy-truth-5b42"
+main = "src/index.js"
+compatibility_date = "2023-05-15"
+usage_model = "bundled"
+env = { }
+
+[triggers]
+crons = [ ]
+
+# wrangler pulls environment from Cloudflare when running locally
+# preview_id is used as Key Value storage then
+[[kv_namespaces]]
+id = "b2932f29cf9b4f9caa6a22b5b21b9859"
+preview_id = "2fa831adee5c4211bf6e44ba3c52c0bb"
+binding = "ku"
